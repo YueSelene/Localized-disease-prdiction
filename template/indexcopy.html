@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Disease Predictor</h1>
+    <form method="post">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="height">Height (m):</label>
+        <input type="number" step="0.01" id="height" name="height" required><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" step="0.01" id="weight" name="weight" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            {% for gender in genders %}
+            <option value="{{ gender }}">{{ gender }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="smoking">Smoking:</label>
+        <select id="smoking" name="smoking">
+            {% for option in yes_no %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="alcohol">Alcohol:</label>
+        <select id="alcohol" name="alcohol">
+            {% for option in yes_no %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="chronic_condition">Chronic Condition:</label>
+        <select id="chronic_condition" name="chronic_condition">
+            {% for condition in chronic_conditions %}
+            <option value="{{ condition }}">{{ condition }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="pollen_allergy">Pollen Allergy:</label>
+        <select id="pollen_allergy" name="pollen_allergy">
+            {% for option in yes_no %}
+            <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="season">Season:</label>
+        <select id="season" name="season">
+            {% for season in seasons %}
+            <option value="{{ season }}">{{ season }}</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="symptom1">Symptom 1:</label>
+        <input type="text" id="symptom1" name="symptom1" required><br>
+
+        <label for="symptom2">Symptom 2:</label>
+        <input type="text" id="symptom2" name="symptom2"><br>
+
+        <label for="symptom3">Symptom 3:</label>
+        <input type="text" id="symptom3" name="symptom3"><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <h2>Predicted Disease: {{ prediction }}</h2>
+    {% if hospitals %}
+    <h3>Nearby Hospitals:</h3>
+    <ul>
+        {% for hospital in hospitals %}
+        <li>{{ hospital.name }} - Lat: {{ hospital.lat }}, Lon: {{ hospital.lon }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No hospitals found nearby.</p>
+    {% endif %}
+    {% endif %}
+</body>
+</html>
