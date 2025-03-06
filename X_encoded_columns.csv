@@ -1,0 +1,159 @@
+column_name
+Age
+BMI
+AQI
+Temp (°C)
+Humidity (%)
+Location_Delhi
+Location_Gujarat
+Location_Karnataka
+Location_Kerala
+Location_Maharashtra
+Location_Punjab
+Location_Rajasthan
+Location_Tamil Nadu
+Location_Uttar Pradesh
+Location_West Bengal
+Gender_Female
+Gender_Male
+Gender_Other
+Smoking_No
+Smoking_Yes
+Alcohol_Occasional
+Alcohol_Regular
+Chronic Condition_Asthma
+Chronic Condition_Diabetes
+Chronic Condition_Hypertension
+Pollen Allergy_N
+Season_Monsoon
+Season_Summer
+Season_Winter
+Symptom 1_Abdominal Cramps
+Symptom 1_Abdominal Pain
+Symptom 1_Blurred Vision
+Symptom 1_Body Ache
+Symptom 1_Chest Pain
+Symptom 1_Chest Tightness
+Symptom 1_Chills
+Symptom 1_Confusion
+Symptom 1_Congestion
+Symptom 1_Cough
+Symptom 1_Dark Urine
+Symptom 1_Dehydration
+Symptom 1_Diarrhea
+Symptom 1_Disorientation
+Symptom 1_Dizziness
+Symptom 1_Fatigue
+Symptom 1_Fever
+Symptom 1_Frequent Stools
+Symptom 1_Frequent Urination
+Symptom 1_Headache
+Symptom 1_High Body Temperature
+Symptom 1_Increased Thirst
+Symptom 1_Itchy Eyes
+Symptom 1_Jaundice
+Symptom 1_Joint Pain
+Symptom 1_Muscle Cramps
+Symptom 1_Muscle Pain
+Symptom 1_Nausea
+Symptom 1_Night Sweats
+Symptom 1_Nosebleeds
+Symptom 1_Palpitations
+Symptom 1_Rapid Breathing
+Symptom 1_Rash
+Symptom 1_Runny Nose
+Symptom 1_Seizures
+Symptom 1_Shortness of Breath
+Symptom 1_Sneezing
+Symptom 1_Sore Throat
+Symptom 1_Sweating
+Symptom 1_Vomiting
+Symptom 1_Weight Loss
+Symptom 1_Wheezing
+Symptom 1_Yellowing of Skin
+Symptom 2_Abdominal Cramps
+Symptom 2_Abdominal Pain
+Symptom 2_Blurred Vision
+Symptom 2_Body Ache
+Symptom 2_Chest Pain
+Symptom 2_Chest Tightness
+Symptom 2_Chills
+Symptom 2_Confusion
+Symptom 2_Congestion
+Symptom 2_Cough
+Symptom 2_Dark Urine
+Symptom 2_Dehydration
+Symptom 2_Diarrhea
+Symptom 2_Disorientation
+Symptom 2_Dizziness
+Symptom 2_Fatigue
+Symptom 2_Fever
+Symptom 2_Frequent Stools
+Symptom 2_Frequent Urination
+Symptom 2_Headache
+Symptom 2_High Body Temperature
+Symptom 2_Increased Thirst
+Symptom 2_Itchy Eyes
+Symptom 2_Jaundice
+Symptom 2_Joint Pain
+Symptom 2_Muscle Cramps
+Symptom 2_Muscle Pain
+Symptom 2_Nausea
+Symptom 2_Night Sweats
+Symptom 2_Nosebleeds
+Symptom 2_Palpitations
+Symptom 2_Rapid Breathing
+Symptom 2_Rash
+Symptom 2_Runny Nose
+Symptom 2_Seizures
+Symptom 2_Shortness of Breath
+Symptom 2_Sneezing
+Symptom 2_Sore Throat
+Symptom 2_Sweating
+Symptom 2_Vomiting
+Symptom 2_Weight Loss
+Symptom 2_Wheezing
+Symptom 2_Yellowing of Skin
+Symptom 3_Abdominal Cramps
+Symptom 3_Abdominal Pain
+Symptom 3_Blurred Vision
+Symptom 3_Body Ache
+Symptom 3_Chest Pain
+Symptom 3_Chest Tightness
+Symptom 3_Chills
+Symptom 3_Confusion
+Symptom 3_Congestion
+Symptom 3_Cough
+Symptom 3_Dark Urine
+Symptom 3_Dehydration
+Symptom 3_Diarrhea
+Symptom 3_Disorientation
+Symptom 3_Dizziness
+Symptom 3_Fatigue
+Symptom 3_Fever
+Symptom 3_Frequent Stools
+Symptom 3_Frequent Urination
+Symptom 3_Headache
+Symptom 3_High Body Temperature
+Symptom 3_Increased Thirst
+Symptom 3_Itchy Eyes
+Symptom 3_Jaundice
+Symptom 3_Joint Pain
+Symptom 3_Muscle Cramps
+Symptom 3_Muscle Pain
+Symptom 3_Nausea
+Symptom 3_Night Sweats
+Symptom 3_Nosebleeds
+Symptom 3_Palpitations
+Symptom 3_Rapid Breathing
+Symptom 3_Rash
+Symptom 3_Runny Nose
+Symptom 3_Seizures
+Symptom 3_Shortness of Breath
+Symptom 3_Sneezing
+Symptom 3_Sore Throat
+Symptom 3_Sweating
+Symptom 3_Vomiting
+Symptom 3_Weight Loss
+Symptom 3_Wheezing
+Symptom 3_Yellowing of Skin
